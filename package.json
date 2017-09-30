@@ -1,15 +1,15 @@
 {
-  "name": "9030-converter",
+  "name": "converter",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "jasmine"
+  "description": "Converts mass & lengths.",
+  "main": "converter.js",
+  "dependencies": {
+    "convert-units": "^2.3.1"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "jasmine": "^2.8.0",
-    "jasmine-spec-reporter": "^4.2.1"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Pittersberger",
+  "license": "ISC"
 }
